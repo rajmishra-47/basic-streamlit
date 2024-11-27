@@ -55,6 +55,3 @@ if st.session_state.userInput:
 
 if st.button(" Want some thing else... Type in any ingrident to get or click the button for next",type="primary"):
           st.session_state.result=chain2.invoke({"context":st.session_state.context})
-
-# def get_image():
-#      response=requests.get()
